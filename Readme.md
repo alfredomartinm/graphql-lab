@@ -14,6 +14,10 @@ The goal is to have examples for:
 
 - mvn clean spring-boot:run
 
+# GraphiQL Console:
+
+- http://localhost:8080/graphiql
+
 # How to run the tests
 
 - mvn clean test

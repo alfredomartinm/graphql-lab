@@ -7,14 +7,17 @@ import java.util.stream.Collectors.toList
 import java.util.stream.IntStream
 
 @Component
-    class BookResolver() : GraphQLQueryResolver {
+class BookResolver() : GraphQLQueryResolver {
+
     fun books(): List<Book> {
         return IntStream.range(1, 10)
                 .boxed()
-                .map { i -> Book(
-                        id = "$i",
-                        name = "name${i}",
-                        description = "description${i}") }
+                .map { i ->
+                    Book(
+                            id = "$i",
+                            name = "name${i}",
+                            description = "description${i}")
+                }
                 .collect(toList());
     }
 }
