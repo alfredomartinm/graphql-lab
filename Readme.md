@@ -1,3 +1,7 @@
+
+![Build](https://github.com/alfredomartinm/graphql-lab/blob/master/.github/workflows/maven.yml/badge.svg)
+
+  
 # GraphQL Lab
 
 This is a playground project to practice server-side GraphQL in a Kotlin/SpringBoot environment.
