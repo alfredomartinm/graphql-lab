@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+  graphql-lab:
+    container_name: graphql-lab
+    image: alfredux.io/graphql-lab:0.0.1-SNAPSHOT
+    ports:
+      - 8080:8080
