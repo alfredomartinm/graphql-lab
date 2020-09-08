@@ -1,5 +1,5 @@
 
-![Build](https://github.com/alfredomartinm/graphql-lab/blob/master/.github/workflows/maven.yml/badge.svg)
+https://github.com/alfredomartinm/graphql-lab/blob/master/.github/workflows/maven.yml/badge.svg
 
   
 # GraphQL Lab
